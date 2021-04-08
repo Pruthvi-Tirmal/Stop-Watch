@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-radius: border-box;
+}
+body {
+  background-color: #2c3e50;
+}
+/* Container */
+.container {
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  color: deepskyblue;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+/* Sub-container of Circle Shape */
+.circle {
+  border: 10px solid deepskyblue;
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+  margin: 0 auto;
+}
+/* Paragraph inside Sub container */
+.circle p {
+  font-size: 5rem;
+  margin-top: 34px;
+}
+/* Second sub-container */
+.sub {
+  width: 50%;
+  margin: 50px auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  left: 15%;
+}
+/* Second Sub-Container Buttons */
+.sub button {
+  margin: 1rem 0.5rem;
+  border: none;
+  padding: 15px;
+  background-color: deepskyblue;
+  color: #2c3e50;
+  width: 100px;
+  font-size: 1.3rem;
+  border-radius: 10px;
+}
+/* Some Effects in buttons */
+button:hover {
+  box-shadow: 0px 0px 20px dodgerblue;
+  cursor: pointer;
+}
