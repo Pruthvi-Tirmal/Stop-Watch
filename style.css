@@ -44,6 +44,7 @@ body {
   margin: 1rem 0.5rem;
   border: none;
   padding: 15px;
+  outline:none;
   background-color: deepskyblue;
   color: #2c3e50;
   width: 100px;
